@@ -1,2 +1,0 @@
-joonas = input()
-print(joonas + "??!")
