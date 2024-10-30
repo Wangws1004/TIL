@@ -378,14 +378,18 @@ print(lr.score(test_poly, test_target))
 # -> -144.40579436844948
 ```
 
+
 <br>
+
 
 ### 규제(regularization)
 * 릿지(Ridge)
 * 라쏘(Lasso)
 * 두가지 다 과적합을 막는 방법이다
 
+
 <br>
+
 
 미분이 불가능 함수
 * x값이 0일때 미분할 수 없다
@@ -453,9 +457,12 @@ train_scaled = ss.transform(train_poly)
 test_scaled = ss.transform(test_poly)
 ```
 
+
 <br>
 
 ### 릿지(Ridge)
+* 릿지 회귀는 L2 규제라고도 불리며, 비용 함수에 가중치(회귀 계수)의 제곱 합을 추가한다. 이를 통해 회귀 계수들이 너무 커지지 않도록 규제한다.
+$$J(θ)= ∑_{i=1}^{m}​(y_{i}​−θ^Tx_{i}​)2+λ∑_{j=1}^n​θ_j^2$$​
 ``` python
 from sklearn.linear_model import Ridge
 
@@ -509,6 +516,8 @@ print(ridge.score(test_scaled, test_target))
 <br>
 
 ### 라쏘(Lasso)
+* 라쏘 회귀는 L1 규제라고도 불리며, 비용 함수에 가중치의 절대 합을 추가한다. 이를 통해 회귀 계수 중 일부를 0으로 만들어 특정 특성(feature)을 선택한다.
+$$J(θ)=∑_{i=1}^{m}​​(y_{i}​−θ^Tx_{i}​)^2+λ∑_{i=1}^{n}∣θ_{j}​∣$$
 ``` python
 from sklearn.linear_model import Lasso
 
@@ -558,6 +567,10 @@ print(lasso.score(test_scaled, test_target))
 print(np.sum(lasso.coef_ == 0))
 # 40
 ```
+
+- **릿지 회귀**는 모든 특성을 포함하면서 계수 크기를 줄여 다중 공선성을 해결하고 모델의 일반화 성능을 향상시킨다.
+- **라쏘 회귀**는 특성 선택이 가능하여 특성 수가 많은 데이터셋에서 특히 유용하며, 일부 계수를 0으로 만들어 단순화된 모델 만든다.
+- **Elastic Net**: 릿지와 라쏘의 장점을 결합한 모델로, L1과 L2 규제를 모두 포함한다. 
 
 <br>
 

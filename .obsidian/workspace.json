@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "85bd22c1ee9335f2",
+        "id": "45e0d1e7c7e2d96e",
         "type": "tabs",
         "children": [
           {
-            "id": "da7c05a3dfb09381",
+            "id": "dbaf93692ff8630c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "데이터분석/week1/2024.05.31/2024.05.31 실습.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0761ba9da87d768",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "66d917e70bff0273",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ff343bed714a694",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "프로젝트에 앞서.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -48,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "AWS",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "프로젝트에 앞서.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "프로젝트에 앞서.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "프로젝트에 앞서.md"
               }
             }
           },
@@ -156,54 +193,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da7c05a3dfb09381",
+  "active": "7ff343bed714a694",
   "lastOpenFiles": [
-    "SeSAC_AI/SeSAC 영등포 3주년/제작과정/작업 자료.md",
+    "Untitled 1.md",
+    "프로젝트에 앞서.md",
     "Untitled.md",
-    "00010-2190181187.png.md",
-    "작업한 자료 - 준혁 a6068325a83143109ef202569684b612/Screenshot_2023-10-24_at_4.48.20_PM-removebg-preview_waifu2x_art_noise1.png.md",
-    "작업한 자료 - 준혁 a6068325a83143109ef202569684b612/%E1%84%89%E1%85%A2%E1%84%8A%E1%85%A1%E1%86%A8%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2.mp4.md",
-    "SeSAC_AI/ML/SeSAC - 머신러닝 및 AI 기술 개요 2일차.md",
-    "작업한 자료 - 준혁 a6068325a83143109ef202569684b612/IMG_7178_waifu2x_art_noise1_scale-removebg-preview_waifu2x_art_noise1_scale_waifu2x_art_noise1_scale_waifu2x_art_noise1.png.md",
-    "작업한 자료 - 준혁 a6068325a83143109ef202569684b612/Untitled.png.md",
-    "작업한 자료 - 준혁 a6068325a83143109ef202569684b612",
-    "SeSAC_AI/SeSAC 영등포 3주년/제작과정/새싹이를 의인화 해보자..md",
-    "SeSAC_AI/SeSAC 영등포 3주년/제작과정/영등포 SeSAC의 3주년 기념 노래를 제작해보자.md",
-    "SeSAC_AI/DL/SeSAC - 딥러닝 데이터 분석(2) - 인공 신경망, 퍼셉트론, 딥러닝.md",
-    "백준/Bronze/4619. 루트/루트.py",
-    "백준/Bronze/4619. 루트/README.md",
-    "백준/Bronze/4619. 루트",
-    "영등포 SeSAC의 3주년 기념 노래를 제작해보자.md",
-    "노래언제불러.mp3",
-    "넌~ 우리으꿈~.mp3",
-    "새싹이를 의인화 해보자..md",
-    "새싹_3주년_노래.mp4",
-    "SOURCE_SeSAC 3rd Anniversary Song.mp3",
-    "python/PythonWorkspace/BOJ 연습장/2547.py",
-    "SeSAC_AI/DL/SeSAC - 딥러닝 데이터 분석(4) - 합성곱, 합성곱 신경망(CNN).md",
-    "SeSAC_AI/DL/SeSAC - 딥러닝 데이터 분석(3) - 심층 신경망, 옵티마이저, 신경망 모델 훈련.md",
-    "SeSAC_AI/ML/SeSAC - 머신러닝 데이터분석(3) - 경사 하강법, 결정 트리.md",
-    "SeSAC_AI/데이터 분석/SeSAC - 데이터 분석 기초 1일차.md",
-    "SeSAC_AI/ML/SeSAC - 머신러닝 및 AI 기술 개요 1일차.md",
-    "SeSAC_AI/ML/SeSAC - 머신러닝 데이터분석.md",
-    "kobert-news.md",
-    "readme.md",
+    "데이터분석/week1/2024.05.31/2024.05.31 실습.md",
+    "데이터분석/공모전/대구로 이상거래 탐지/모델 튜닝.md",
+    "데이터분석/공모전/모델 튜닝.md",
+    "데이터분석/공모전/대구로 이상거래 탐지",
+    "데이터분석/공모전/untitled folder",
+    "AWS.md",
+    "모델 튜닝.md",
+    "데이터분석/모델 튜닝.md",
+    "Transformer.md",
+    "취업특강.md",
+    "python/PythonWorkspace/연습장/testml.py",
+    "데이터분석/텍스트 마이닝 프로젝트/텍스트 마이닝으로 통화정책위원회 회의록 해독하기.md",
+    "Screenshot 2024-08-13 at 2.02.27 PM.png",
+    "Screenshot 2024-08-13 at 1.57.14 PM.png",
+    "Screenshot 2024-08-13 at 1.57.01 PM.png",
+    "Pasted image 20240812173550.png",
+    "Screenshot 2024-08-12 at 5.28.38 PM.png",
+    "SeSAC_AI/수업자료/텍스트AI/9. Transformer/텍스트 AI - 트랜스포머.pdf",
+    "Pasted image 20240812033519.png",
+    "Pasted image 20240812032928.png",
+    "Pasted image 20240812032912.png",
+    "Pasted image 20240812031107.png",
+    "Pasted image 20240812030009.png",
+    "run_crawler.py",
+    "runspider.py",
+    "백준/Bronze/8741. 이진수 합/이진수 합.py",
+    "백준/Bronze/8741. 이진수 합/README.md",
+    "백준/Bronze/8741. 이진수 합",
+    "백준/Bronze/5704. 팬그램/팬그램.py",
+    "백준/Bronze/5704. 팬그램/README.md",
+    "백준/Bronze/5704. 팬그램",
+    "백준/Bronze/5026. 박사 과정/README.md",
+    "백준/Bronze/4998. 저금/README.md",
+    "백준/Bronze/4592. 중복을 없애자/README.md",
+    "백준/Bronze/2954. 창영이의 일기장/README.md",
+    "백준/Bronze/2139. 나는 너가 살아온 날을 알고 있다/README.md",
+    "백준/Bronze/1731. 추론/README.md",
+    "백준/Bronze/14723. 이산수학 과제/README.md",
+    "협업.md",
+    "텍스트 마이닝으로 통화정책위원회 회의록 해독하기.md",
+    "데이터분석/텍스트 마이닝 프로젝트/협업.md",
+    "데이터분석/공모전/머신러닝과 딥러닝.md",
     "SeSAC_AI/데이터 분석/SeSAC - 파이썬 데이터 처리 프로그래밍 3일차(기상청 중기예보 서비스 API 사용해보기).md",
-    "SeSAC_AI/DL/NLP/SeSAC - 딥러닝 Attention, Seq2Seq.md",
-    "SeSAC_AI/데이터 분석/SeSAC - 파이썬 데이터 처리 프로그래밍 2일차(검색해서 데이터 가져오기).md",
-    "SeSAC_AI/수업자료/텍스트AI/10. 대형 언어 모델 LLM/텍스트 AI - 파운데이션 모델.pdf",
-    "SeSAC_AI/수업자료/텍스트AI/10. 대형 언어 모델 LLM/텍스트 AI - 잡다한 이야기들.pdf",
-    "백준/Bronze/2959. 거북이/README.md",
-    "SeSAC_AI/수업자료/텍스트AI/3. word2Vec/스크린샷 2023-09-29 오후 5.39.59.png",
-    "SeSAC_AI/ML/convolution_schematic.webp",
-    "python/python 필기/python 에러:예외처리.assets/python3.png",
-    "알고리즘/데이터 구조와 알고리즘/시간복잡도와 빅오표기법.assets/big-o.jpeg",
-    "알고리즘/데이터 구조와 알고리즘/스택과 큐.assets/stack.png",
-    "알고리즘/데이터 구조와 알고리즘/스택과 큐.assets/queue.png",
-    "알고리즘/데이터 구조와 알고리즘/스택과 큐.assets/deque.png",
-    "알고리즘/데이터 구조와 알고리즘/딕셔너리.assets/hash function.png",
-    "알고리즘/데이터 구조와 알고리즘/priority queue.png",
-    "알고리즘/데이터 구조와 알고리즘/BFS DFS.png",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
